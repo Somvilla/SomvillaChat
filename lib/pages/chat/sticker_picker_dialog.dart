@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
-import 'package:fluffychat/widgets/mxc_image.dart';
+import 'package:somvillachat/config/app_config.dart';
+import 'package:somvillachat/l10n/l10n.dart';
+import 'package:somvillachat/utils/url_launcher.dart';
+import 'package:somvillachat/widgets/mxc_image.dart';
 import '../../widgets/avatar.dart';
 
 class StickerPickerDialog extends StatefulWidget {

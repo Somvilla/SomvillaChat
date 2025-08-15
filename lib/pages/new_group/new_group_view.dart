@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/new_group/new_group.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/layouts/max_width_body.dart';
+import 'package:somvillachat/config/themes.dart';
+import 'package:somvillachat/l10n/l10n.dart';
+import 'package:somvillachat/pages/new_group/new_group.dart';
+import 'package:somvillachat/utils/localized_exception_extension.dart';
+import 'package:somvillachat/widgets/avatar.dart';
+import 'package:somvillachat/widgets/layouts/max_width_body.dart';
 
 class NewGroupView extends StatelessWidget {
   final NewGroupController controller;

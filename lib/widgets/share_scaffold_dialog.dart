@@ -4,12 +4,12 @@ import 'package:cross_file/cross_file.dart';
 import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:somvillachat/config/app_config.dart';
+import 'package:somvillachat/config/themes.dart';
+import 'package:somvillachat/l10n/l10n.dart';
+import 'package:somvillachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:somvillachat/widgets/avatar.dart';
+import 'package:somvillachat/widgets/matrix.dart';
 
 abstract class ShareItem {}
 

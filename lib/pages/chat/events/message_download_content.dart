@@ -3,10 +3,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter_linkify/flutter_linkify.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/utils/file_description.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/event_extension.dart';
-import 'package:fluffychat/utils/url_launcher.dart';
+import 'package:somvillachat/config/app_config.dart';
+import 'package:somvillachat/utils/file_description.dart';
+import 'package:somvillachat/utils/matrix_sdk_extensions/event_extension.dart';
+import 'package:somvillachat/utils/url_launcher.dart';
 
 class MessageDownloadContent extends StatelessWidget {
   final Event event;

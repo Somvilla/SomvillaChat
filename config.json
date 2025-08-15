@@ -1,0 +1,7 @@
+{
+    "default_homeserver": "matrix.somvilla.com",
+    "privacy_url": null,
+    "jitsi_instance": null,
+    "enable_registration": false,
+    "application_name": "SomvillaChat"
+  }

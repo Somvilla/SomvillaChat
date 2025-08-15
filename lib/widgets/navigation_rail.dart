@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/chat_list/navi_rail_item.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/stream_extension.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:somvillachat/config/app_config.dart';
+import 'package:somvillachat/config/themes.dart';
+import 'package:somvillachat/l10n/l10n.dart';
+import 'package:somvillachat/pages/chat_list/navi_rail_item.dart';
+import 'package:somvillachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:somvillachat/utils/stream_extension.dart';
+import 'package:somvillachat/widgets/avatar.dart';
+import 'package:somvillachat/widgets/matrix.dart';
 
 class SpacesNavigationRail extends StatelessWidget {
   final String? activeSpaceId;

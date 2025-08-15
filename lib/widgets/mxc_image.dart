@@ -6,10 +6,10 @@ import 'package:flutter/material.dart';
 
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/themes.dart';
-import 'package:fluffychat/utils/client_download_content_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
-import 'package:fluffychat/widgets/matrix.dart';
+import 'package:somvillachat/config/themes.dart';
+import 'package:somvillachat/utils/client_download_content_extension.dart';
+import 'package:somvillachat/utils/matrix_sdk_extensions/matrix_file_extension.dart';
+import 'package:somvillachat/widgets/matrix.dart';
 
 class MxcImage extends StatefulWidget {
   final Uri? uri;

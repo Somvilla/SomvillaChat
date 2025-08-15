@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 import 'package:matrix/matrix.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/utils/date_time_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/widgets/avatar.dart';
+import 'package:somvillachat/config/app_config.dart';
+import 'package:somvillachat/l10n/l10n.dart';
+import 'package:somvillachat/utils/date_time_extension.dart';
+import 'package:somvillachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:somvillachat/widgets/avatar.dart';
 
 class RoomCreationStateEvent extends StatelessWidget {
   final Event event;

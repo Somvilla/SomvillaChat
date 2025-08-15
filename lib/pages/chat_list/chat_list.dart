@@ -12,28 +12,28 @@ import 'package:matrix/matrix.dart' as sdk;
 import 'package:matrix/matrix.dart';
 import 'package:receive_sharing_intent/receive_sharing_intent.dart';
 
-import 'package:fluffychat/config/app_config.dart';
-import 'package:fluffychat/l10n/l10n.dart';
-import 'package:fluffychat/pages/chat_list/chat_list_view.dart';
-import 'package:fluffychat/utils/error_reporter.dart';
-import 'package:fluffychat/utils/localized_exception_extension.dart';
-import 'package:fluffychat/utils/matrix_sdk_extensions/matrix_locals.dart';
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/utils/show_scaffold_dialog.dart';
-import 'package:fluffychat/utils/show_update_snackbar.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_modal_action_popup.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
-import 'package:fluffychat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
-import 'package:fluffychat/widgets/avatar.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
-import 'package:fluffychat/widgets/share_scaffold_dialog.dart';
+import 'package:somvillachat/config/app_config.dart';
+import 'package:somvillachat/l10n/l10n.dart';
+import 'package:somvillachat/pages/chat_list/chat_list_view.dart';
+import 'package:somvillachat/utils/error_reporter.dart';
+import 'package:somvillachat/utils/localized_exception_extension.dart';
+import 'package:somvillachat/utils/matrix_sdk_extensions/matrix_locals.dart';
+import 'package:somvillachat/utils/platform_infos.dart';
+import 'package:somvillachat/utils/show_scaffold_dialog.dart';
+import 'package:somvillachat/utils/show_update_snackbar.dart';
+import 'package:somvillachat/widgets/adaptive_dialogs/show_modal_action_popup.dart';
+import 'package:somvillachat/widgets/adaptive_dialogs/show_ok_cancel_alert_dialog.dart';
+import 'package:somvillachat/widgets/adaptive_dialogs/show_text_input_dialog.dart';
+import 'package:somvillachat/widgets/avatar.dart';
+import 'package:somvillachat/widgets/future_loading_dialog.dart';
+import 'package:somvillachat/widgets/share_scaffold_dialog.dart';
 import '../../../utils/account_bundles.dart';
 import '../../config/setting_keys.dart';
 import '../../utils/url_launcher.dart';
 import '../../widgets/matrix.dart';
 import '../bootstrap/bootstrap_dialog.dart';
 
-import 'package:fluffychat/utils/tor_stub.dart'
+import 'package:somvillachat/utils/tor_stub.dart'
     if (dart.library.html) 'package:tor_detector_web/tor_detector_web.dart';
 
 enum PopupMenuAction {

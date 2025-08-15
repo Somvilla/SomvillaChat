@@ -3,9 +3,9 @@ import 'package:flutter/widgets.dart';
 import 'package:file_picker/file_picker.dart';
 import 'package:file_selector/file_selector.dart';
 
-import 'package:fluffychat/utils/platform_infos.dart';
-import 'package:fluffychat/widgets/app_lock.dart';
-import 'package:fluffychat/widgets/future_loading_dialog.dart';
+import 'package:somvillachat/utils/platform_infos.dart';
+import 'package:somvillachat/widgets/app_lock.dart';
+import 'package:somvillachat/widgets/future_loading_dialog.dart';
 
 Future<List<XFile>> selectFiles(
   BuildContext context, {
