@@ -1199,7 +1199,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "inviteText": "{username} invited you to SomvillaChat.\n1. Visit SomvillaChat.im and install the app \n2. Sign up or sign in \n3. Open the invite link: \n {link}",
+  "inviteText": "{username} invited you to SomvillaChat.\n1. Visit chat.somvilla.com and install the app \n2. Sign up or sign in \n3. Open the invite link: \n {link}",
   "@inviteText": {
     "type": "String",
     "placeholders": {

@@ -9,7 +9,7 @@ abstract class AppConfig {
   static String? _applicationWelcomeMessage;
 
   static String? get applicationWelcomeMessage => _applicationWelcomeMessage;
-  static String _defaultHomeserver = 'matrix.org';
+  static String _defaultHomeserver = 'matrix.somvilla.com';
 
   static String get defaultHomeserver => _defaultHomeserver;
   static double fontSizeFactor = 1;
@@ -22,33 +22,33 @@ abstract class AppConfig {
   static const Color primaryColorLight = Color(0xFFCCBDEA);
   static const Color secondaryColor = Color(0xFF41a2bc);
   static String _privacyUrl =
-      'https://github.com/krille-chan/SomvillaChat/blob/main/PRIVACY.md';
+      'https://github.com/somvilla/SomvillaChat/blob/main/PRIVACY.md';
 
   static const Set<String> defaultReactions = {'👍', '❤️', '😂', '😮', '😢'};
 
   static String get privacyUrl => _privacyUrl;
-  static const String website = 'https://SomvillaChat.im';
+  static const String website = 'https://somvilla.com';
   static const String enablePushTutorial =
-      'https://github.com/krille-chan/SomvillaChat/wiki/Push-Notifications-without-Google-Services';
+      'https://github.com/somvilla/SomvillaChat/wiki/Push-Notifications-without-Google-Services';
   static const String encryptionTutorial =
-      'https://github.com/krille-chan/SomvillaChat/wiki/How-to-use-end-to-end-encryption-in-SomvillaChat';
+      'https://github.com/somvilla/SomvillaChat/wiki/How-to-use-end-to-end-encryption-in-SomvillaChat';
   static const String startChatTutorial =
-      'https://github.com/krille-chan/SomvillaChat/wiki/How-to-Find-Users-in-SomvillaChat';
+      'https://github.com/somvilla/SomvillaChat/wiki/How-to-Find-Users-in-SomvillaChat';
   static const String appId = 'im.SomvillaChat.SomvillaChat';
   static const String appOpenUrlScheme = 'im.SomvillaChat';
-  static String _webBaseUrl = 'https://SomvillaChat.im/web';
+  static String _webBaseUrl = 'https://chat.somvilla.com';
 
   static String get webBaseUrl => _webBaseUrl;
   static const String sourceCodeUrl =
-      'https://github.com/krille-chan/SomvillaChat';
+      'https://github.com/somvilla/SomvillaChat';
   static const String supportUrl =
-      'https://github.com/krille-chan/SomvillaChat/issues';
+      'https://github.com/somvilla/SomvillaChat/issues';
   static const String changelogUrl =
-      'https://github.com/krille-chan/SomvillaChat/blob/main/CHANGELOG.md';
+      'https://github.com/somvilla/SomvillaChat/blob/main/CHANGELOG.md';
   static final Uri newIssueUrl = Uri(
     scheme: 'https',
     host: 'github.com',
-    path: '/krille-chan/SomvillaChat/issues/new',
+    path: '/somvilla/SomvillaChat/issues/new',
   );
   static bool renderHtml = true;
   static bool hideRedactedEvents = false;
