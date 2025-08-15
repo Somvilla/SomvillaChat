@@ -1,11 +1,11 @@
-name: fluffychat
-title: FluffyChat
+name: SomvillaChat
+title: SomvillaChat
 base: core24
 version: 2.1.0
 license: AGPL-3.0
 summary: The cutest messenger in the Matrix network
 description: |
-  FluffyChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.
+  SomvillaChat is an open source, nonprofit and cute matrix messenger app. The app is easy to use but secure and decentralized.
 
 
   ## Features
@@ -29,7 +29,7 @@ description: |
   - And much more...
 
 
-  ## FluffyChat comes with a dream
+  ## SomvillaChat comes with a dream
 
   Imagine a world where everyone can choose the messenger they like and is still able to chat with all of their friends.
 
@@ -37,8 +37,8 @@ description: |
 
   And a world where apps are made for fluffyness and not for profit. ♥
 
-  Join the community: https://matrix.to/#/#fluffychat:matrix.org
-  Website: http://fluffychat.im
+  Join the community: https://matrix.to/#/#SomvillaChat:matrix.org
+  Website: http://SomvillaChat.im
   Microblog: https://mastodon.art/@krille
 
 grade: stable
@@ -74,7 +74,7 @@ parts:
       - zip
     override-prime: ''
 
-  fluffychat:
+  SomvillaChat:
     after: [flutter-git]
     plugin: nil
     source: .
@@ -102,11 +102,11 @@ slots:
   dbus-svc:
     interface: dbus
     bus: session
-    name: chat.fluffy.fluffychat
+    name: chat.fluffy.SomvillaChat
 
 apps:
-  fluffychat:
-    command: bin/fluffychat
+  SomvillaChat:
+    command: bin/SomvillaChat
     extensions: [ gnome ]
     plugs:
       - audio-playback

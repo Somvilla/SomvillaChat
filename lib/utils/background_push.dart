@@ -1,7 +1,7 @@
 /*
  *   Famedly
  *   Copyright (C) 2020, 2021 Famedly GmbH
- *   Copyright (C) 2021 Fluffychat
+ *   Copyright (C) 2021 SomvillaChat
  *
  *   This program is free software: you can redistribute it and/or modify
  *   it under the terms of the GNU Affero General Public License as
@@ -337,7 +337,7 @@ class BackgroundPush {
             .waitForRoomInSync(roomId)
             .timeout(const Duration(seconds: 30));
       }
-      FluffyChatApp.router.go(
+      SomvillaChatApp.router.go(
         client.getRoomById(roomId)?.membership == Membership.invite
             ? '/rooms'
             : '/rooms/$roomId',

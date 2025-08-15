@@ -478,11 +478,11 @@ Updates the Matrix Dart SDK to fix multiple issues where messages can be missing
 
 ## v1.22.0
 
-FluffyChat v1.22.0 brings a new design for spaces, replaces the bottom navigation bar with filter
+SomvillaChat v1.22.0 brings a new design for spaces, replaces the bottom navigation bar with filter
 chips and makes it finally possible to play ogg audio messages on iOS. A lot of other fixes and
 improvements have also been added to this release.
 
-FluffyChat also now uses the new authenticated media endpoints if the server supports Matrix v1.11
+SomvillaChat also now uses the new authenticated media endpoints if the server supports Matrix v1.11
 or
 mentions the msc with the key `org.matrix.msc3916.stable` in the `unstable_features`.
 
@@ -597,7 +597,7 @@ Updates the Matrix Dart SDK to fix some minor bugs.
 
 ## v1.21.0
 
-FluffyChat v1.21.0 introduces the new search feature which also includes a gallery and files list
+SomvillaChat v1.21.0 introduces the new search feature which also includes a gallery and files list
 for each chat. Several performance improvements have been added under the hood, leading to a much
 nicer user experience.
 
@@ -728,7 +728,7 @@ Minor bugfix release for login with SSO on web.
 
 ## v1.19.0
 
-FluffyChat v1.19.0 features an improved design for message bubbles and a lot of fixes under the
+SomvillaChat v1.19.0 features an improved design for message bubbles and a lot of fixes under the
 hood.
 
 - build: Update matrix dart sdk (Krille)
@@ -751,7 +751,7 @@ hood.
 - feat: Add insert content via gboard (krille-chan)
 - feat: Reply with one button in desktop (krille-chan)
 - fix: Do not sync in background mode (krille-chan)
-- fix: FluffyChat should assume m.change_password capabilitiy is supported if not present per spec (
+- fix: SomvillaChat should assume m.change_password capabilitiy is supported if not present per spec (
   krille-chan)
 - fix: never use root navigator for bottom sheets (The one with the braid)
 - fix: Remove pantalaimon message with normal error message (krille-chan)
@@ -870,7 +870,7 @@ Minor bugfix release.
 
 ## v1.17.0
 
-FluffyChat v1.17.0 refreshes the overall user experience, changes some design and fixes a lot of
+SomvillaChat v1.17.0 refreshes the overall user experience, changes some design and fixes a lot of
 bugs. It also replaces the stories feature with matrix presences, introduces a new kind of database
 to store the messages locally and improves the performance and app stability.
 
@@ -1165,7 +1165,7 @@ Test candidate for the new database.
 
 ## v1.14.4
 
-Minor bugfix release. Please note that because of a Flutter update FluffyChat is no longer
+Minor bugfix release. Please note that because of a Flutter update SomvillaChat is no longer
 compatible with iOS 11.
 
 - Translated using Weblate (Spanish) (José Muñoz)
@@ -1194,7 +1194,7 @@ compatible with iOS 11.
 
 ## v1.14.0
 
-Release with a lot of bugfixes and refactorings under the hood. FluffyChat now uses go_router
+Release with a lot of bugfixes and refactorings under the hood. SomvillaChat now uses go_router
 instead of vrouter, works with the newest Flutter SDK and supports "reason" field for redactions.
 For Android there is a new "background-fetch mode" for Push Notifications which should make
 notifications in background faster and more reliable and reduce battery-usage.
@@ -1527,7 +1527,7 @@ some translations
 
 ## v1.7.0 2022-11-17
 
-FluffyChat 1.7.0 features a new way to work with spaces via a bottom navigation bar. A lot of work
+SomvillaChat 1.7.0 features a new way to work with spaces via a bottom navigation bar. A lot of work
 has also been done under the hood to make the app faster and more stable. The main color has
 slightly changed and the design got some finetuning.
 
@@ -1616,7 +1616,7 @@ slightly changed and the design got some finetuning.
 
 ## v1.6.0 - 2022-07-31
 
-FluffyChat 1.6.0 features a lot of bug fixes and improvements. The code base has been
+SomvillaChat 1.6.0 features a lot of bug fixes and improvements. The code base has been
 simplified and the drawer on the chat list page got a come-back. Some new features like
 the space hierarchy and session dump have been implemented.
 
@@ -1817,7 +1817,7 @@ the space hierarchy and session dump have been implemented.
 
 ## v1.3.0 - 2022-02-12
 
-FluffyChat 1.3.0 makes it possible to report offensive users to server admins (not only messages).
+SomvillaChat 1.3.0 makes it possible to report offensive users to server admins (not only messages).
 It fixes
 the video player, improves Linux desktop notifications, and the stories design.
 
@@ -1825,7 +1825,7 @@ The button to create a new story is now in the app bar of the main page so that 
 to use
 this feature no longer have a whole list item pinned at the top of the chat list.
 
-FluffyChat 1.3.0 is the first release with full null safe dart code. While this is a huge change
+SomvillaChat 1.3.0 is the first release with full null safe dart code. While this is a huge change
 under the
 hood, it should improve the stability and performance of the app. It also builds now with Flutter
 2.10.
@@ -1869,7 +1869,7 @@ Thanks to all contributors and translators!! <3
 
 ## v1.2.0 - 2022-01-27
 
-FluffyChat 1.2.0 brings a new stories feature, a lot of bug fixes and improved
+SomvillaChat 1.2.0 brings a new stories feature, a lot of bug fixes and improved
 voice messages.
 
 - change: Set client ID in invite action link (Krille Fear)
@@ -1977,7 +1977,7 @@ voice messages.
 - feat: New settings design
 - feat: Nicer images, stickers and videos
 - feat: nicer loading bar
-- feat: Open im.fluffychat uris
+- feat: Open im.SomvillaChat uris
 - feat: Redesign multiaccounts and spaces
 - feat: Redesign start page
 - feat: Send reactions to multiple events
@@ -2013,7 +2013,7 @@ voice messages.
 
 ## v0.42.2 - 2021-11-04
 
-Minor bugfix release which fixes signing up on matrix.org and make FluffyChats voice messages
+Minor bugfix release which fixes signing up on matrix.org and make SomvillaChats voice messages
 playable in Element.
 
 - feat: Nicer registration form
@@ -2047,7 +2047,7 @@ This release fixes several bugs and makes E2EE enabled by default.
 - chore: Updated translations (Thanks to all translators!)
 - fix: App crash on logout
 - fix: Temporary disable sign-up for matrix.org (Currently gives "500: Internal Server Error" while
-  FluffyChat **should** send the same requests like Element)
+  SomvillaChat **should** send the same requests like Element)
 - fix: Implement Roboto font to fix font issues on Linux Desktop and mobile
 - fix: QR Code scanning
 
@@ -2302,7 +2302,7 @@ translations and for rebuilding the arm64 Linux Flatpak.
 
 ## v0.32.0 - 2021-06-16
 
-FluffyChat 0.32.0 targets improved stability and a new onboarding flow where single sign on is now
+SomvillaChat 0.32.0 targets improved stability and a new onboarding flow where single sign on is now
 the more prominent way to get new users into the app. This release also introduces a complete
 rewritten database under the hood based on the key value store Hive instead of sqlite. This should
 improve the overall stability and the performance of the web version.

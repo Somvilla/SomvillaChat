@@ -13,7 +13,7 @@ extension UiaRequestManager on MatrixState {
   Future uiaRequestHandler(UiaRequest uiaRequest) async {
     final l10n = L10n.of(context);
     final navigatorContext =
-        FluffyChatApp.router.routerDelegate.navigatorKey.currentContext ??
+        SomvillaChatApp.router.routerDelegate.navigatorKey.currentContext ??
             context;
     try {
       if (uiaRequest.state != UiaRequestState.waitForUser ||

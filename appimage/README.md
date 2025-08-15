@@ -1,6 +1,6 @@
-# FluffyChat AppImage
+# SomvillaChat AppImage
 
-FluffyChat is provided as AppImage too. To Download, visit fluffychat.im.
+SomvillaChat is provided as AppImage too. To Download, visit SomvillaChat.im.
 
 ## Building
 
@@ -10,15 +10,15 @@ FluffyChat is provided as AppImage too. To Download, visit fluffychat.im.
 flutter build linux
 
 # copy binaries to appimage dir
-cp -r build/linux/{x64,arm64}/release/bundle appimage/FluffyChat.AppDir
+cp -r build/linux/{x64,arm64}/release/bundle appimage/SomvillaChat.AppDir
 cd appimage
 
 # prepare AppImage files
-cp FluffyChat.desktop FluffyChat.AppDir/
-mkdir -p FluffyChat.AppDir/usr/share/icons
-cp ../assets/logo.svg FluffyChat.AppDir/fluffychat.svg
-cp AppRun FluffyChat.AppDir
+cp SomvillaChat.desktop SomvillaChat.AppDir/
+mkdir -p SomvillaChat.AppDir/usr/share/icons
+cp ../assets/logo.svg SomvillaChat.AppDir/SomvillaChat.svg
+cp AppRun SomvillaChat.AppDir
 
 # build the AppImage
-appimagetool FluffyChat.AppDir
+appimagetool SomvillaChat.AppDir
 ```

@@ -436,8 +436,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "fluffychat": "பஞ்சுபோன்ற",
-  "@fluffychat": {
+  "SomvillaChat": "பஞ்சுபோன்ற",
+  "@SomvillaChat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1353,8 +1353,8 @@
     "type": "String",
     "placeholders": {}
   },
-  "newMessageInFluffyChat": "Fuf பஞ்சுபோன்ற புதிய செய்தி",
-  "@newMessageInFluffyChat": {
+  "newMessageInSomvillaChat": "Fuf பஞ்சுபோன்ற புதிய செய்தி",
+  "@newMessageInSomvillaChat": {
     "type": "String",
     "placeholders": {}
   },

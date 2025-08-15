@@ -1098,8 +1098,8 @@
   },
   "homeserver": "Hem-servitor",
   "@homeserver": {},
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "SomvillaChat": "SomvillaChat",
+  "@SomvillaChat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1142,7 +1142,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "title": "FluffyChat",
+  "title": "SomvillaChat",
   "@title": {
     "description": "Title for the application",
     "type": "String",
@@ -1675,7 +1675,7 @@
       }
     }
   },
-  "@newMessageInFluffyChat": {
+  "@newMessageInSomvillaChat": {
     "type": "String",
     "placeholders": {}
   },

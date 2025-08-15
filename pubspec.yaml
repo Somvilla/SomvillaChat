@@ -119,15 +119,15 @@ flutter:
     - assets/vodozemac/
 
 msix_config:
-  display_name: FluffyChat
-  publisher_display_name: FluffyChat
-  publisher: CN=FluffyChat, O=Head of bad integration tests, L=Matrix, S=Internet, C=EU
-  identity_name: chat.fluffy.fluffychat
+  display_name: SomvillaChat
+  publisher_display_name: SomvillaChat
+  publisher: CN=SomvillaChat, O=Head of bad integration tests, L=Matrix, S=Internet, C=EU
+  identity_name: chat.fluffy.SomvillaChat
   logo_path: assets\logo.png
   capabilities: internetClient, location, microphone, webcam
   protocol_activation: https
-  app_uri_handler_hosts: fluffychat.im, matrix.to
-  execution_alias: fluffychat
+  app_uri_handler_hosts: SomvillaChat.im, matrix.to
+  execution_alias: SomvillaChat
   sign_msix: false
   install_certificate: false
 

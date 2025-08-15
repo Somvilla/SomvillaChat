@@ -172,7 +172,7 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
             );
             _registerSubs(_loginClientCandidate!.clientName);
             _loginClientCandidate = null;
-            FluffyChatApp.router.go('/rooms');
+            SomvillaChatApp.router.go('/rooms');
           });
     if (widget.clients.isEmpty) widget.clients.add(candidate);
     return candidate;
@@ -207,7 +207,7 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
   bool webHasFocus = true;
 
   String? get activeRoomId {
-    final route = FluffyChatApp.router.routeInformationProvider.value.uri.path;
+    final route = SomvillaChatApp.router.routeInformationProvider.value.uri.path;
     if (!route.startsWith('/rooms/')) return null;
     return route.split('/')[2];
   }
@@ -269,14 +269,14 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
         if (!hidPopup &&
             {KeyVerificationState.done, KeyVerificationState.error}
                 .contains(request.state)) {
-          FluffyChatApp.router.pop('dialog');
+          SomvillaChatApp.router.pop('dialog');
         }
         hidPopup = true;
       };
       request.onUpdate = null;
       hidPopup = true;
       await KeyVerificationDialog(request: request).show(
-        FluffyChatApp.router.routerDelegate.navigatorKey.currentContext ??
+        SomvillaChatApp.router.routerDelegate.navigatorKey.currentContext ??
             context,
       );
     });
@@ -290,7 +290,7 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
       }
       if (loggedInWithMultipleClients && state != LoginState.loggedIn) {
         ScaffoldMessenger.of(
-          FluffyChatApp.router.routerDelegate.navigatorKey.currentContext ??
+          SomvillaChatApp.router.routerDelegate.navigatorKey.currentContext ??
               context,
         ).showSnackBar(
           SnackBar(
@@ -299,10 +299,10 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
         );
 
         if (state != LoginState.loggedIn) {
-          FluffyChatApp.router.go('/rooms');
+          SomvillaChatApp.router.go('/rooms');
         }
       } else {
-        FluffyChatApp.router
+        SomvillaChatApp.router
             .go(state == LoginState.loggedIn ? '/rooms' : '/home');
       }
     });
@@ -342,7 +342,7 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
         this,
         onFcmError: (errorMsg, {Uri? link}) async {
           final result = await showOkCancelAlertDialog(
-            context: FluffyChatApp
+            context: SomvillaChatApp
                     .router.routerDelegate.navigatorKey.currentContext ??
                 context,
             title: L10n.of(context).pushNotificationsNotAvailable,
@@ -486,7 +486,7 @@ class MatrixState extends State<Matrix> with WidgetsBindingObserver {
     );
 
     final exportFileName =
-        'fluffychat-export-${DateFormat(DateFormat.YEAR_MONTH_DAY).format(DateTime.now())}.fluffybackup';
+        'SomvillaChat-export-${DateFormat(DateFormat.YEAR_MONTH_DAY).format(DateTime.now())}.fluffybackup';
 
     final file = MatrixFile(bytes: exportBytes, name: exportFileName);
     file.save(context);

@@ -1,8 +1,8 @@
-repo_url = "https://fluffychat.im/repo/nightly/repo"
-repo_name = "FluffyChat nightly repo"
+repo_url = "https://SomvillaChat.im/repo/nightly/repo"
+repo_name = "SomvillaChat nightly repo"
 repo_icon = "fdroid-icon.png"
 repo_description = """
-FluffyChat nightly repo
+SomvillaChat nightly repo
 """
 
 archive_older = 0

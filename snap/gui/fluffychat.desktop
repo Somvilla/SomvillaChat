@@ -1,9 +1,9 @@
 [Desktop Entry]
-Name=FluffyChat
+Name=SomvillaChat
 GenericName=Matrix Client
 Comment=Chat with your friends
-Exec=fluffychat
-Icon=${SNAP}/meta/gui/fluffychat.png
+Exec=SomvillaChat
+Icon=${SNAP}/meta/gui/SomvillaChat.png
 Terminal=false
 Type=Application
 Categories=Network;Chat;InstantMessaging;

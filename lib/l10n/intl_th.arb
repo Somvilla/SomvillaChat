@@ -158,8 +158,8 @@
       }
     }
   },
-  "fluffychat": "FluffyChat",
-  "@fluffychat": {
+  "SomvillaChat": "SomvillaChat",
+  "@SomvillaChat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1094,7 +1094,7 @@
     }
   },
   "@callingPermissions": {},
-  "@newMessageInFluffyChat": {
+  "@newMessageInSomvillaChat": {
     "type": "String",
     "placeholders": {}
   },

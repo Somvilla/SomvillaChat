@@ -956,7 +956,7 @@
     "type": "String",
     "placeholders": {}
   },
-  "@newMessageInFluffyChat": {
+  "@newMessageInSomvillaChat": {
     "type": "String",
     "placeholders": {}
   },
@@ -1466,7 +1466,7 @@
     "placeholders": {}
   },
   "@unverified": {},
-  "@fluffychat": {
+  "@SomvillaChat": {
     "type": "String",
     "placeholders": {}
   },

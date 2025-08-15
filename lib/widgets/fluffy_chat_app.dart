@@ -13,13 +13,13 @@ import '../config/app_config.dart';
 import '../utils/custom_scroll_behaviour.dart';
 import 'matrix.dart';
 
-class FluffyChatApp extends StatelessWidget {
+class SomvillaChatApp extends StatelessWidget {
   final Widget? testWidget;
   final List<Client> clients;
   final String? pincode;
   final SharedPreferences store;
 
-  const FluffyChatApp({
+  const SomvillaChatApp({
     super.key,
     this.testWidget,
     required this.clients,

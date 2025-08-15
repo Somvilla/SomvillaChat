@@ -86,7 +86,7 @@ class HtmlMessage extends StatelessWidget {
     'rt',
     'html',
     'body',
-    // Workaround for https://github.com/krille-chan/fluffychat/issues/507
+    // Workaround for https://github.com/krille-chan/SomvillaChat/issues/507
     'tg-forward',
   };
 

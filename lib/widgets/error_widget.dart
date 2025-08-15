@@ -2,15 +2,15 @@ import 'package:flutter/material.dart';
 
 import 'package:somvillachat/utils/error_reporter.dart';
 
-class FluffyChatErrorWidget extends StatefulWidget {
+class SomvillaChatErrorWidget extends StatefulWidget {
   final FlutterErrorDetails details;
-  const FluffyChatErrorWidget(this.details, {super.key});
+  const SomvillaChatErrorWidget(this.details, {super.key});
 
   @override
-  State<FluffyChatErrorWidget> createState() => _FluffyChatErrorWidgetState();
+  State<SomvillaChatErrorWidget> createState() => _SomvillaChatErrorWidgetState();
 }
 
-class _FluffyChatErrorWidgetState extends State<FluffyChatErrorWidget> {
+class _SomvillaChatErrorWidgetState extends State<SomvillaChatErrorWidget> {
   static final Set<String> knownExceptions = {};
   @override
   void initState() {

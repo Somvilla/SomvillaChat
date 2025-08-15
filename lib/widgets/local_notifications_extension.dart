@@ -115,7 +115,7 @@ extension LocalNotificationsExtension on MatrixState {
         body: body,
         replacesId: linuxNotificationIds[roomId] ?? 0,
         appName: AppConfig.applicationName,
-        appIcon: 'fluffychat',
+        appIcon: 'SomvillaChat',
         actions: [
           NotificationAction(
             DesktopNotificationActions.openChat.name,
@@ -143,7 +143,7 @@ extension LocalNotificationsExtension on MatrixState {
             );
             break;
           case DesktopNotificationActions.openChat:
-            FluffyChatApp.router.go('/rooms/${event.room.id}');
+            SomvillaChatApp.router.go('/rooms/${event.room.id}');
             break;
         }
       });
